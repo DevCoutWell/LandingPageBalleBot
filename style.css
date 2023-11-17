@@ -30,6 +30,7 @@ body{
 
 .cabecalho-menu{
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -123,3 +124,51 @@ footer > img{
     margin: 0 auto;
 }
 
+@media (max-width: 880px){
+
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .cabecalho-menu{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+
+    .cabecalho-menu-item{
+        font-size: 15px;
+    } 
+
+    .conteiner-principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-principal h1{
+        font-size: 54px;
+    }
+
+    .conteiner-principal p{
+        font-size: 20px;
+    }
+
+    .conteiner-principal button{
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .conteudo-secundario {
+        max-width: 500px;
+        text-align: left;
+
+        padding-left: 25px;
+    }
+
+    footer img{
+            
+    }
+}
