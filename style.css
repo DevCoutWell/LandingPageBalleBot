@@ -124,7 +124,7 @@ footer > img{
     margin: 0 auto;
 }
 
-@media (max-width: 400px){
+@media (max-width: 320px){
 
     .cabecalho{
         display: flex;
