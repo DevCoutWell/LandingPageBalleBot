@@ -124,7 +124,7 @@ footer > img{
     margin: 0 auto;
 }
 
-@media (max-width: 880px){
+@media (max-width: 320px){
 
     .cabecalho{
         display: flex;
@@ -146,6 +146,8 @@ footer > img{
     .conteiner-principal{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .conteudo-principal h1{
@@ -159,6 +161,8 @@ footer > img{
     .conteiner-principal button{
         width: 150px;
         font-size: 20px;
+        text-align: center;
+
     }
 
     .conteudo-secundario {
