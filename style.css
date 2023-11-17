@@ -81,7 +81,7 @@ body{
 
     width: 185px;
     height: 67px;
-    outline: none;
+    border: none;
     border-radius: 24px;
     color: #000;
     font-size: 24px;
@@ -124,13 +124,14 @@ footer > img{
     margin: 0 auto;
 }
 
-@media (max-width: 320px){
+@media (max-width: 400px){
 
     .cabecalho{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+        gap: 20px;
     }
     .cabecalho-menu{
         display: flex;
@@ -146,30 +147,50 @@ footer > img{
     .conteiner-principal{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .conteudo-principal h1{
-        font-size: 54px;
-    }
-
-    .conteiner-principal p{
-        font-size: 20px;
-    }
-
-    .conteiner-principal button{
-        width: 150px;
-        font-size: 20px;
         text-align: center;
 
     }
 
-    .conteudo-secundario {
-        max-width: 500px;
-        text-align: left;
+    .conteudo-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
 
+    .conteudo-principal h1{
+        font-size: 40px;
+    }
+
+    .conteiner-principal img{
+        max-width: 250px;
+    }
+
+    .conteiner-principal p{
+        font-size: 14px;
+    }
+
+    .conteiner-principal button{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        text-align: center;
+
+
+    }
+
+    .conteudo-secundario {
+        max-width: 250px;
+        text-align: left;
+        margin: 0 auto;
         padding-left: 25px;
     }
 
+    .conteudo-secundario ol li{
+        text-align: justify;
+    }
+
+    footer img{
+        width: 200px;
+    }
 }
